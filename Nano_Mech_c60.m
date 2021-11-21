@@ -283,13 +283,13 @@ figure(2);
 plot(ii(:),UV(1,:),'o','Color','b');
 xlabel('N[-]') 
 ylabel('U[Kt]')
-title('ΰπψβιδ λτεπχφιδ ωμ λξεϊ δξηζεψιν')
+title('Γ Γ°ΓΈΓΆΓ©Γ¤ Γ«Γ΄Γ¥Γ°Γ·Γ¶Γ©Γ¤ ΓΉΓ¬ Γ«Γ®Γ¥ΓΊ Γ¤Γ®Γ§Γ¦Γ¥ΓΈΓ©Γ­')
 
 figure(3);
 plot(ii(:),rgV(1,:),'o','Color','k');
 xlabel('N[-]') 
 ylabel('Rg[nm]')
-title('ξψηχ δΰθεξιν λτεπχφιδ ωμ λξεϊ δξηζεψιν')
+title('Γ®ΓΈΓ§Γ· Γ¤Γ Γ¨Γ¥Γ®Γ©Γ­ Γ«Γ΄Γ¥Γ°Γ·Γ¶Γ©Γ¤ ΓΉΓ¬ Γ«Γ®Γ¥ΓΊ Γ¤Γ®Γ§Γ¦Γ¥ΓΈΓ©Γ­')
 
 
 function U=TOTAL_ENRG(kr,kt,r0sng,r0dbl,t0a,t0b,Mdist,XYZ,Mang)
